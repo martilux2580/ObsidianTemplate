@@ -1,0 +1,28 @@
+/*
+CSS styling for centering stuff.
+
+Obsidian does not support centering stuff natively because Markdown (.md files) don´t support it. We need an HTML workaround.
+
+In Obsidian, you can copy the following HTML code:
+    <span class="center">![[Image1.png]]  <br> "Example1"</span>
+and although Obsidian wont render it correctly, in the exported PDF the image Image1.png will be centered, as well as the text below "Example1" (not really a caption of the image but could be...).
+
+This .css file should be placed in your Obsidian Vault folder in your file system, in a folder named snippets (if it isnt there, create it) inside the .obsidian folder. After that, reload Obsidian (not really needed but just in case....).
+
+*/
+
+.center {
+    display: block;
+    text-align: center;
+  }
+  
+  .right {
+    display: block;
+    text-align: right;
+  }
+  
+  .left {
+    display: block;
+    text-align: left;
+  }
+

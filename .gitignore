@@ -1,6 +1,7 @@
 ##Personal Gitignore file for Obsidian Vaults.
 
-worskpace.json
+*/.obsidian/workspace.json
+*/.obsidian/workspaces.json
 
 # OR only to exclude workspace cache
 .obsidian/workspace/*
@@ -22,6 +23,7 @@ Day*Planners/*
 Untitled*
 # Exclude "bad" names
 null*
+
 
 
 
